@@ -1,0 +1,26 @@
+N°,Nom du Ravitaillement,Distance (km),Barrière Horaire,Type de Poste,Pause 1er (min),Pause Dern. (min),Accès Véhicule,Couverture Réseau,Médical,Dortoir
+1,Stade de Basse Vallée (DÉPART),0,,DEPART,0,0,ROUTE,GSM,Oui,Non
+2,Camphrier,10.447,,COMPLET,2,12,ROUTE,GSM,Non,Non
+3,Foc foc,25.021,,COMPLET,4,20,ROUTE,ZONE_BLANCHE,Oui,Non
+4,Parking nez de boeuf,40.526,,COMPLET,3,25,ROUTE,GSM,Oui,Non
+5,Champ de foire,47.749,,COMPLET,4,15,ROUTE,GSM,Oui,Oui
+6,Horloge,54.474,,COMPLET,2,15,ROUTE,GSM,Non,Non
+7,Gd bassin,58.672,,COMPLET,2,45,HELICO,GSM,Oui,Oui
+8,Mare a boue,66.135,,COMPLET,2,15,PIETON,ZONE_BLANCHE,Non,Non
+9,Parking marsoin,74.686,,COMPLET,5,30,INTERDIT,GSM,Oui,Non
+10,Hell bourg,87.522,,COMPLET,3,20,ROUTE,GSM,Non,Non
+11,Gite dufour 1,95.166,,EAU,2,10,HELICO,GSM,Non,Non
+12,Sommet piton,98.214,,EAU,1,5,HELICO,GSM,Oui,Non
+13,Gite dufour 2,101.27,,EAU,2,10,HELICO,GSM,Oui,Oui
+14,Cilaos,110.811,,BASE_VIE,12,45,ROUTE,GSM,Oui,Non
+15,Pied taibit,117.97,,COMPLET,2,15,ROUTE,GSM,Non,Non
+16,Marla,124.134,,COMPLET,4,25,HELICO,GSM,Oui,Non
+17,La nouvelle,130.827,,COMPLET,4,20,HELICO,GSM,Oui,Non
+18,Roche plate,140.049,,COMPLET,3,18,HELICO,GSM,Non,Non
+19,Maido,147.476,,COMPLET,0,25,PIETON,ZONE_BLANCHE,Oui,Oui
+20,Tamarin,162.201,,COMPLET,2,5,PIETON,GSM,Oui,Oui
+21,Piton oranger,172.308,,COMPLET,2,15,PIETON,GSM,Oui,Oui
+22,Halte la,189.71,,BASE_VIE,10,55,PIETON,GSM,Non,Non
+23,Cap noir,197.898,,COMPLET,3,10,ROUTE,GSM,Oui,Oui
+24,Colorado,213.424,,COMPLET,3,15,ROUTE,GSM,Oui,Oui
+25,La Redoute - Saint-Denis (ARRIVÉE),220.341,,COMPLET,0,0,,GSM,Non,Non
