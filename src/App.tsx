@@ -151,7 +151,7 @@ export function App() {
         startDate: '2027-05-06',
         startTime: '06:00',
         winnerTargetHours: 34.5,
-        cutoffTargetHours: 82.0,
+        cutoffTargetHours: 83.0,
         defaultFirstStopMin: 3,
         defaultLastStopMin: 15,
         nightPenaltyPercent: 8,

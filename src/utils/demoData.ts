@@ -6,7 +6,7 @@ export const DEMO_SETTINGS: RaceSettings = {
   startDate: '2027-05-06',
   startTime: '06:00',
   winnerTargetHours: 34.5, // 34h30
-  cutoffTargetHours: 82.0, // 82h00
+  cutoffTargetHours: 83.0, // 83h00
   defaultFirstStopMin: 3,
   defaultLastStopMin: 15,
   nightPenaltyPercent: 8,
@@ -56,7 +56,8 @@ export const DEMO_AID_STATIONS: AidStation[] = [
     "elevation": 714.9,
     "lat": -21.33927,
     "lon": 55.70613,
-    "gpxPointIndex": 484
+    "gpxPointIndex": 484,
+    "manualCutoffTime": "2027-05-06T05:00:00.000Z"
   },
   {
     "id": "st-03",
@@ -73,7 +74,8 @@ export const DEMO_AID_STATIONS: AidStation[] = [
     "elevation": 2332.9,
     "lat": -21.23173,
     "lon": 55.67313,
-    "gpxPointIndex": 1116
+    "gpxPointIndex": 1116,
+    "manualCutoffTime": "2027-05-06T12:00:00.000Z"
   },
   {
     "id": "st-04",
@@ -95,23 +97,6 @@ export const DEMO_AID_STATIONS: AidStation[] = [
   {
     "id": "st-05",
     "order": 5,
-    "name": "Champ de foire",
-    "distanceKm": 48.35,
-    "type": "COMPLET",
-    "stopTimeFirstMin": 4,
-    "stopTimeLastMin": 15,
-    "accessibility": "ROUTE",
-    "network": "GSM",
-    "medical": true,
-    "dormitory": true,
-    "elevation": 1598.9,
-    "lat": -21.1964,
-    "lon": 55.57849,
-    "gpxPointIndex": 2348
-  },
-  {
-    "id": "st-06",
-    "order": 6,
     "name": "Horloge",
     "distanceKm": 55.13,
     "type": "COMPLET",
@@ -124,11 +109,12 @@ export const DEMO_AID_STATIONS: AidStation[] = [
     "elevation": 1369.7,
     "lat": -21.19073,
     "lon": 55.535,
-    "gpxPointIndex": 2524
+    "gpxPointIndex": 2524,
+    "manualCutoffTime": "2027-05-06T20:15:00.000Z"
   },
   {
-    "id": "st-07",
-    "order": 7,
+    "id": "st-06",
+    "order": 6,
     "name": "Gd bassin",
     "distanceKm": 59.42,
     "type": "COMPLET",
@@ -141,11 +127,12 @@ export const DEMO_AID_STATIONS: AidStation[] = [
     "elevation": 723.8,
     "lat": -21.1808,
     "lon": 55.53563,
-    "gpxPointIndex": 2878
+    "gpxPointIndex": 2878,
+    "manualCutoffTime": "2027-05-06T22:00:00.000Z"
   },
   {
-    "id": "st-08",
-    "order": 8,
+    "id": "st-07",
+    "order": 7,
     "name": "Mare a boue",
     "distanceKm": 66.96,
     "type": "COMPLET",
@@ -158,11 +145,12 @@ export const DEMO_AID_STATIONS: AidStation[] = [
     "elevation": 1603.4,
     "lat": -21.16046,
     "lon": 55.57073,
-    "gpxPointIndex": 3194
+    "gpxPointIndex": 3194,
+    "manualCutoffTime": "2027-05-07T01:15:00.000Z"
   },
   {
-    "id": "st-09",
-    "order": 9,
+    "id": "st-08",
+    "order": 8,
     "name": "Parking marsoin",
     "distanceKm": 75.62,
     "type": "COMPLET",
@@ -178,8 +166,8 @@ export const DEMO_AID_STATIONS: AidStation[] = [
     "gpxPointIndex": 3584
   },
   {
-    "id": "st-10",
-    "order": 10,
+    "id": "st-09",
+    "order": 9,
     "name": "Hell bourg",
     "distanceKm": 88.6,
     "type": "COMPLET",
@@ -192,11 +180,12 @@ export const DEMO_AID_STATIONS: AidStation[] = [
     "elevation": 1026.6,
     "lat": -21.07109,
     "lon": 55.52186,
-    "gpxPointIndex": 4210
+    "gpxPointIndex": 4210,
+    "manualCutoffTime": "2027-05-07T05:15:00.000Z"
   },
   {
-    "id": "st-11",
-    "order": 11,
+    "id": "st-10",
+    "order": 10,
     "name": "Gite dufour 1",
     "distanceKm": 96.36,
     "type": "EAU",
@@ -212,8 +201,8 @@ export const DEMO_AID_STATIONS: AidStation[] = [
     "gpxPointIndex": 4727
   },
   {
-    "id": "st-12",
-    "order": 12,
+    "id": "st-11",
+    "order": 11,
     "name": "Sommet piton",
     "distanceKm": 99.45,
     "type": "EAU",
@@ -229,8 +218,8 @@ export const DEMO_AID_STATIONS: AidStation[] = [
     "gpxPointIndex": 4920
   },
   {
-    "id": "st-13",
-    "order": 13,
+    "id": "st-12",
+    "order": 12,
     "name": "Gite dufour 2",
     "distanceKm": 102.54,
     "type": "EAU",
@@ -246,8 +235,8 @@ export const DEMO_AID_STATIONS: AidStation[] = [
     "gpxPointIndex": 5110
   },
   {
-    "id": "st-14",
-    "order": 14,
+    "id": "st-13",
+    "order": 13,
     "name": "Cilaos",
     "distanceKm": 112.19,
     "type": "BASE_VIE",
@@ -260,11 +249,12 @@ export const DEMO_AID_STATIONS: AidStation[] = [
     "elevation": 1213.9,
     "lat": -21.13566,
     "lon": 55.4755,
-    "gpxPointIndex": 5731
+    "gpxPointIndex": 5731,
+    "manualCutoffTime": "2027-05-07T19:00:00.000Z"
   },
   {
-    "id": "st-15",
-    "order": 15,
+    "id": "st-14",
+    "order": 14,
     "name": "Pied taibit",
     "distanceKm": 119.44,
     "type": "COMPLET",
@@ -277,11 +267,12 @@ export const DEMO_AID_STATIONS: AidStation[] = [
     "elevation": 1255.7,
     "lat": -21.11729,
     "lon": 55.4504,
-    "gpxPointIndex": 6041
+    "gpxPointIndex": 6041,
+    "manualCutoffTime": "2027-05-07T21:30:00.000Z"
   },
   {
-    "id": "st-16",
-    "order": 16,
+    "id": "st-15",
+    "order": 15,
     "name": "Marla",
     "distanceKm": 125.69,
     "type": "COMPLET",
@@ -297,8 +288,8 @@ export const DEMO_AID_STATIONS: AidStation[] = [
     "gpxPointIndex": 6579
   },
   {
-    "id": "st-17",
-    "order": 17,
+    "id": "st-16",
+    "order": 16,
     "name": "La nouvelle",
     "distanceKm": 132.46,
     "type": "COMPLET",
@@ -314,8 +305,8 @@ export const DEMO_AID_STATIONS: AidStation[] = [
     "gpxPointIndex": 6960
   },
   {
-    "id": "st-18",
-    "order": 18,
+    "id": "st-17",
+    "order": 17,
     "name": "Roche plate",
     "distanceKm": 141.8,
     "type": "COMPLET",
@@ -331,8 +322,8 @@ export const DEMO_AID_STATIONS: AidStation[] = [
     "gpxPointIndex": 7668
   },
   {
-    "id": "st-19",
-    "order": 19,
+    "id": "st-18",
+    "order": 18,
     "name": "Maido",
     "distanceKm": 149.31,
     "type": "COMPLET",
@@ -345,11 +336,12 @@ export const DEMO_AID_STATIONS: AidStation[] = [
     "elevation": 2168.3,
     "lat": -21.06966,
     "lon": 55.38763,
-    "gpxPointIndex": 8246
+    "gpxPointIndex": 8246,
+    "manualCutoffTime": "2027-05-08T09:45:00.000Z"
   },
   {
-    "id": "st-20",
-    "order": 20,
+    "id": "st-19",
+    "order": 19,
     "name": "Tamarin",
     "distanceKm": 164.24,
     "type": "COMPLET",
@@ -365,8 +357,8 @@ export const DEMO_AID_STATIONS: AidStation[] = [
     "gpxPointIndex": 9161
   },
   {
-    "id": "st-21",
-    "order": 21,
+    "id": "st-20",
+    "order": 20,
     "name": "Piton oranger",
     "distanceKm": 174.46,
     "type": "COMPLET",
@@ -382,8 +374,8 @@ export const DEMO_AID_STATIONS: AidStation[] = [
     "gpxPointIndex": 9647
   },
   {
-    "id": "st-22",
-    "order": 22,
+    "id": "st-21",
+    "order": 21,
     "name": "Halte la",
     "distanceKm": 192.1,
     "type": "BASE_VIE",
@@ -396,11 +388,12 @@ export const DEMO_AID_STATIONS: AidStation[] = [
     "elevation": 215.6,
     "lat": -20.96773,
     "lon": 55.33396,
-    "gpxPointIndex": 10535
+    "gpxPointIndex": 10535,
+    "manualCutoffTime": "2027-05-09T05:00:00.000Z"
   },
   {
-    "id": "st-23",
-    "order": 23,
+    "id": "st-22",
+    "order": 22,
     "name": "Cap noir",
     "distanceKm": 200.37,
     "type": "COMPLET",
@@ -416,8 +409,8 @@ export const DEMO_AID_STATIONS: AidStation[] = [
     "gpxPointIndex": 10920
   },
   {
-    "id": "st-24",
-    "order": 24,
+    "id": "st-23",
+    "order": 23,
     "name": "Colorado",
     "distanceKm": 216.1,
     "type": "COMPLET",
@@ -430,11 +423,12 @@ export const DEMO_AID_STATIONS: AidStation[] = [
     "elevation": 659.6,
     "lat": -20.90615,
     "lon": 55.42505,
-    "gpxPointIndex": 11726
+    "gpxPointIndex": 11726,
+    "manualCutoffTime": "2027-05-09T10:30:00.000Z"
   },
   {
-    "id": "st-25",
-    "order": 25,
+    "id": "st-24",
+    "order": 24,
     "name": "La Redoute - Saint-Denis (ARRIVÉE)",
     "distanceKm": 223.1,
     "type": "COMPLET",
